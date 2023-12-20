@@ -3,7 +3,7 @@ A smart solution for responsive ui
 
 * Usage
 
-it will wrap the hole app in side single div
+the component should wrap the hole app, so when the window witdh is smaller than 500px it will scale down, and when it higher than 500px the scale ratio will be 1
 ```tsx
 <ExtremeResponsive minWidth={500}>
 <Nav />
